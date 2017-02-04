@@ -1,7 +1,8 @@
-package com.sushil.Exam1;
+package com.sushil.Main;
+
+import com.sushil.PracExam1.Recursive1;
 
 public class Main {
-
     public static void main(String[] args) {
         boolean res = Recursive1.containsAZero(new int[]{1,0,2}, 0,2);
         System.out.println(res);

@@ -1,8 +1,5 @@
-package com.sushil.Exam1;
+package com.sushil.PracExam1;
 
-/**
- * Created by 212358644 on 2/1/2017.
- */
 public class Recursive1 {
     public static boolean containsAZero(int [] A, int low, int high) {
         if (low > high)
