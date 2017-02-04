@@ -1,10 +1,11 @@
 package com.sushil.Main;
 
-import com.sushil.PracExam1.Recursive1;
+import com.sushil.PracExam1.*;
 
 public class Main {
     public static void main(String[] args) {
-        boolean res = Recursive1.containsAZero(new int[]{1,0,2}, 0,2);
+        int res = Prob3.loc(new int[]{1,4,21,39}, 0,3, 21);
+
         System.out.println(res);
         //Prob1.main(new String[0]);
     }
