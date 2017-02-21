@@ -25,26 +25,26 @@ public class PracExam2A {
     }
 
     // Problem 3
-    public static int totalSumOfDigits(int n) {
+    public static long totalSumOfDigits(long n) {
         if (n < 10) return n;
-        int sum = (n % 10) + totalSumOfDigits(n / 10);
+        long sum = (n % 10) + totalSumOfDigits(n / 10);
         if (sum < 10) return sum;
         return totalSumOfDigits(sum);
     }
 
     // Problem 4
     public static String alternating(int[] A, int low, int high) {
-        if (low + 1 >= high) return "END";
-
         String alt;
         if (A[low] < A[low + 1]) alt = "UPfirst";
         else if (A[low] > A[low + 1]) alt = "DOWNfirst";
         else return "NEITHER";
 
-        String allOthers = alternating(A, low + 1, high);
-        if (!allOthers.equals(alt) && !allOthers.equals("END")) return alt;
+        if (high > low + 1) {
+            String allOthers = alternating(A, low + 1, high);
+            if (allOthers.equals(alt)) return "NEITHER";
+        }
 
-        return "NEITHER";
+        return alt;
     }
 
     // Problem 5

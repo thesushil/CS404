@@ -17,7 +17,8 @@ public class PracExam2ATest {
 
     @Test
     void totalSumOfDigits() {
-
+        long res = PracExam2A.totalSumOfDigits(9999999999999L);
+        assertEquals(9, res);
     }
 
     @Test

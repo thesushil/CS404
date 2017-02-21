@@ -2,6 +2,10 @@ package com.sushil;
 
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 public class PrepProbTest {
     @Test
     void indexOfHighestRowSum() {
@@ -123,7 +127,9 @@ public class PrepProbTest {
 
     @Test
     void isSumOfTwoDistinctSquares() {
-        System.out.print(PrepProb.isSumOfTwoDistinctSquares(5));
+        assertTrue(PrepProb.isSumOfTwoDistinctSquares(5));
+        assertTrue(PrepProb.isSumOfTwoDistinctSquares(25));
+        assertFalse(PrepProb.isSumOfTwoDistinctSquares(18));
     }
 
     @Test

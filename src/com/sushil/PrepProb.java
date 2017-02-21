@@ -308,13 +308,12 @@ public class PrepProb {
     }
 
     public static boolean isSumOfTwoDistinctSquares(int n) {
-        boolean isIt = false;
         int half = n / 2;
         for (int i = half; i >= 0; i--)
             for (int j = 0; j < half; j++) {
-                if (n == i * i + j * j) return true;
+                if (n == i * i + j * j && i != j) return true;
             }
-        return isIt;
+        return false;
     }
 
     public static int glaciered(int k, int m) {
