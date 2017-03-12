@@ -23,30 +23,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="PracExam3ATest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sushil/PracExam3ATest.java">
+      <file leaf-file-name="PracExam3BTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sushil/PracExam3BTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="346">
+              <caret line="109" column="35" lean-forward="false" selection-start-line="109" selection-start-column="35" selection-end-line="109" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#isWeightedGraph#0;class#PracExam3ATest#0" expanded="false" />
+                <element signature="method#PrintWholePath#0;class#PracExam3BTest#0" expanded="false" />
+                <element signature="method#frequencyOfLargest#0;class#PracExam3BTest#0" expanded="false" />
+                <element signature="method#allOptimalPathsAreDirectEdges#0;class#PracExam3BTest#0" expanded="false" />
+                <element signature="method#A_is_subpath_of_B#0;class#PracExam3BTest#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PracExam3A.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/sushil/PracExam3A.java">
+      <file leaf-file-name="PracExam3B.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/sushil/PracExam3B.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="99" column="1" lean-forward="false" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
+            <state relative-caret-position="346">
+              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
               <folding>
-                <element signature="method#isWeightedGraph#0;class#PracExam3A#0" expanded="false" />
-                <element signature="method#printPath#0;class#PracExam3A#0" expanded="false" />
-                <element signature="method#undirected#0;class#PracExam3A#0" expanded="false" />
-                <element signature="method#noWayOut#0;class#PracExam3A#0" expanded="false" />
-                <element signature="method#isolatedVertex#0;class#PracExam3A#0" expanded="false" />
+                <element signature="method#PrintWholePath#0;class#PracExam3B#0" expanded="false" />
+                <element signature="method#PrintPath#0;class#PracExam3B#0" expanded="false" />
+                <element signature="method#frequencyOfLargest#0;class#PracExam3B#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -75,8 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/sushil/PrepProb10.java" />
-        <option value="$PROJECT_DIR$/src/com/sushil/PrepProb11.java" />
         <option value="$PROJECT_DIR$/src/com/sushil/PrepProb12.java" />
         <option value="$PROJECT_DIR$/src/com/sushil/PrepProb14.java" />
         <option value="$PROJECT_DIR$/src/com/sushil/PrepProb13.java" />
@@ -126,6 +125,8 @@
         <option value="$PROJECT_DIR$/src/com/sushil/Exam2.java" />
         <option value="$PROJECT_DIR$/src/com/sushil/PracExam3A.java" />
         <option value="$PROJECT_DIR$/src/com/sushil/PracExam3ATest.java" />
+        <option value="$PROJECT_DIR$/src/com/sushil/PracExam3BTest.java" />
+        <option value="$PROJECT_DIR$/src/com/sushil/PracExam3B.java" />
       </list>
     </option>
   </component>
@@ -175,7 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -208,8 +208,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -237,85 +238,7 @@
       <recent name="com.sushil.Exam1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PracExam3ATest.isWeightedGraph">
-    <configuration default="false" name="PracExam2CTest.trib" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.sushil.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="CS404" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.sushil" />
-      <option name="MAIN_CLASS_NAME" value="com.sushil.PracExam2CTest" />
-      <option name="METHOD_NAME" value="trib" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="PracExam2BTest.numWaysLtd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.sushil.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="CS404" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.sushil" />
-      <option name="MAIN_CLASS_NAME" value="com.sushil.PracExam2BTest" />
-      <option name="METHOD_NAME" value="numWaysLtd" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="PracExam2CTest.numWays_NonRec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.sushil.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="CS404" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.sushil" />
-      <option name="MAIN_CLASS_NAME" value="com.sushil.PracExam2CTest" />
-      <option name="METHOD_NAME" value="numWays_NonRec" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.PracExam3BTest.A_is_subpath_of_B">
     <configuration default="false" name="PracExam3ATest.isWeightedGraph" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -342,7 +265,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="PracExam3ATest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="PracExam3BTest.PrintWholePath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.sushil.*" />
@@ -353,9 +276,87 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.sushil" />
-      <option name="MAIN_CLASS_NAME" value="com.sushil.PracExam3ATest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.sushil.PracExam3BTest" />
+      <option name="METHOD_NAME" value="PrintWholePath" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PracExam3BTest.frequencyOfLargest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.sushil.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CS404" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.sushil" />
+      <option name="MAIN_CLASS_NAME" value="com.sushil.PracExam3BTest" />
+      <option name="METHOD_NAME" value="frequencyOfLargest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PracExam3BTest.allOptimalPathsAreDirectEdges" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.sushil.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CS404" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.sushil" />
+      <option name="MAIN_CLASS_NAME" value="com.sushil.PracExam3BTest" />
+      <option name="METHOD_NAME" value="allOptimalPathsAreDirectEdges" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PracExam3BTest.A_is_subpath_of_B" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.sushil.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CS404" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.sushil" />
+      <option name="MAIN_CLASS_NAME" value="com.sushil.PracExam3BTest" />
+      <option name="METHOD_NAME" value="A_is_subpath_of_B" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -479,19 +480,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.PracExam2CTest.trib" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PracExam2BTest.numWaysLtd" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PracExam2CTest.numWays_NonRec" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PracExam3ATest.isWeightedGraph" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PracExam3ATest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PracExam3ATest.isWeightedGraph" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PracExam3BTest.PrintWholePath" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PracExam3BTest.frequencyOfLargest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PracExam3BTest.allOptimalPathsAreDirectEdges" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PracExam3BTest.A_is_subpath_of_B" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PracExam3ATest.isWeightedGraph" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PracExam3ATest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PracExam2CTest.numWays_NonRec" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PracExam2BTest.numWaysLtd" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PracExam2CTest.trib" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PracExam3BTest.A_is_subpath_of_B" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PracExam3BTest.allOptimalPathsAreDirectEdges" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PracExam3BTest.frequencyOfLargest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PracExam3BTest.PrintWholePath" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PracExam3ATest.isWeightedGraph" />
       </list>
     </recent_temporary>
   </component>
@@ -499,35 +500,35 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TestHistory">
-    <history-entry file="PracExam2CTest_numWays_NonRec - 2017.02.25 at 11h 47m 23s.xml">
-      <configuration name="PracExam2CTest.numWays_NonRec" configurationId="JUnit" />
+    <history-entry file="PracExam3BTest_A_is_subpath_of_B - 2017.03.12 at 17h 52m 52s.xml">
+      <configuration name="PracExam3BTest.A_is_subpath_of_B" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracExam2CTest_numWays_NonRec - 2017.02.25 at 11h 50m 03s.xml">
-      <configuration name="PracExam2CTest.numWays_NonRec" configurationId="JUnit" />
+    <history-entry file="PracExam3BTest_A_is_subpath_of_B - 2017.03.12 at 17h 54m 55s.xml">
+      <configuration name="PracExam3BTest.A_is_subpath_of_B" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracExam2CTest_numWays_NonRec - 2017.02.25 at 11h 53m 20s.xml">
-      <configuration name="PracExam2CTest.numWays_NonRec" configurationId="JUnit" />
+    <history-entry file="PracExam3BTest_A_is_subpath_of_B - 2017.03.12 at 17h 56m 21s.xml">
+      <configuration name="PracExam3BTest.A_is_subpath_of_B" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracExam2CTest_trib - 2017.02.23 at 19h 34m 05s.xml">
-      <configuration name="PracExam2CTest.trib" configurationId="JUnit" />
+    <history-entry file="PracExam3BTest_A_is_subpath_of_B - 2017.03.12 at 17h 57m 58s.xml">
+      <configuration name="PracExam3BTest.A_is_subpath_of_B" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracExam2CTest_trib - 2017.02.23 at 19h 35m 28s.xml">
-      <configuration name="PracExam2CTest.trib" configurationId="JUnit" />
+    <history-entry file="PracExam3BTest_A_is_subpath_of_B - 2017.03.12 at 17h 58m 12s.xml">
+      <configuration name="PracExam3BTest.A_is_subpath_of_B" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracExam2CTest_trib - 2017.02.23 at 19h 37m 15s.xml">
-      <configuration name="PracExam2CTest.trib" configurationId="JUnit" />
+    <history-entry file="PracExam3BTest_A_is_subpath_of_B - 2017.03.12 at 17h 58m 26s.xml">
+      <configuration name="PracExam3BTest.A_is_subpath_of_B" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracExam3ATest - 2017.03.11 at 14h 04m 21s.xml">
-      <configuration name="PracExam3ATest" configurationId="JUnit" />
+    <history-entry file="PracExam3BTest_A_is_subpath_of_B - 2017.03.12 at 18h 00m 21s.xml">
+      <configuration name="PracExam3BTest.A_is_subpath_of_B" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracExam3ATest - 2017.03.11 at 14h 05m 43s.xml">
-      <configuration name="PracExam3ATest" configurationId="JUnit" />
+    <history-entry file="PracExam3BTest_A_is_subpath_of_B - 2017.03.12 at 18h 01m 02s.xml">
+      <configuration name="PracExam3BTest.A_is_subpath_of_B" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracExam3ATest_isWeightedGraph - 2017.03.11 at 13h 58m 38s.xml">
-      <configuration name="PracExam3ATest.isWeightedGraph" configurationId="JUnit" />
+    <history-entry file="PracExam3BTest_A_is_subpath_of_B - 2017.03.12 at 18h 01m 33s.xml">
+      <configuration name="PracExam3BTest.A_is_subpath_of_B" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PracExam3ATest_isWeightedGraph - 2017.03.11 at 17h 39m 34s.xml">
-      <configuration name="PracExam3ATest.isWeightedGraph" configurationId="JUnit" />
+    <history-entry file="PracExam3BTest_A_is_subpath_of_B - 2017.03.12 at 18h 02m 18s.xml">
+      <configuration name="PracExam3BTest.A_is_subpath_of_B" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -540,7 +541,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280543" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43927357" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33442622" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33442622" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1953125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -592,7 +593,7 @@
           <option name="timeStamp" value="71" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="88" />
+      <option name="time" value="99" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -601,9 +602,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/sushil/PrepProb/PrepProb20.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/sushil/PrepProb/PrepProb19.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/sushil/Exam1/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/com/sushil/PrepProb/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/com/sushil/PrepProb/PrepProb26.java" />
     <entry file="file://$PROJECT_DIR$/src/com/sushil/PracExam1/Recursive1.java" />
@@ -697,18 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sushil/PracExam2BTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="method#TOH#0;class#PracExam2BTest#0" expanded="false" />
-            <element signature="method#numWays#0;class#PracExam2BTest#0" expanded="false" />
-            <element signature="method#numWaysLtd#0;class#PracExam2BTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sushil/PracExam2C.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -725,23 +711,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sushil/PracExam2ATest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sushil/Exam2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="e#109#110#0" expanded="true" />
-            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#109#110#0" expanded="false" />
+            <element signature="e#137#138#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -761,17 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sushil/PracExam3ATest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#isWeightedGraph#0;class#PracExam3ATest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sushil/PracExam3A.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="696">
@@ -782,6 +747,75 @@
             <element signature="method#undirected#0;class#PracExam3A#0" expanded="false" />
             <element signature="method#noWayOut#0;class#PracExam3A#0" expanded="false" />
             <element signature="method#isolatedVertex#0;class#PracExam3A#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sushil/PracExam3ATest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#isWeightedGraph#0;class#PracExam3ATest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sushil/PracExam2ATest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-624">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sushil/PracExam2BTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+          <folding>
+            <element signature="method#numWays#0;class#PracExam2BTest#0" expanded="false" />
+            <element signature="method#numWaysLtd#0;class#PracExam2BTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/io/ByteArrayOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="177" column="29" lean-forward="false" selection-start-line="177" selection-start-column="29" selection-end-line="177" selection-end-column="29" />
+          <folding>
+            <element signature="e#5255#5256#0" expanded="false" />
+            <element signature="e#5280#5281#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sushil/PracExam3BTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="109" column="35" lean-forward="false" selection-start-line="109" selection-start-column="35" selection-end-line="109" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#PrintWholePath#0;class#PracExam3BTest#0" expanded="false" />
+            <element signature="method#frequencyOfLargest#0;class#PracExam3BTest#0" expanded="false" />
+            <element signature="method#allOptimalPathsAreDirectEdges#0;class#PracExam3BTest#0" expanded="false" />
+            <element signature="method#A_is_subpath_of_B#0;class#PracExam3BTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sushil/PracExam3B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="method#PrintWholePath#0;class#PracExam3B#0" expanded="false" />
+            <element signature="method#PrintPath#0;class#PracExam3B#0" expanded="false" />
+            <element signature="method#frequencyOfLargest#0;class#PracExam3B#0" expanded="false" />
           </folding>
         </state>
       </provider>
