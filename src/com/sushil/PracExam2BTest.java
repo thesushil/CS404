@@ -1,10 +1,10 @@
 package com.sushil;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 class PracExam2BTest {
     @Test
