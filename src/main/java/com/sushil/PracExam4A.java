@@ -20,7 +20,7 @@ public class PracExam4A {
                     vNear = i;
                 }
             }
-            
+
             length[vNear] = 0;
 
             for (int v = 1; v <= n; v++) {

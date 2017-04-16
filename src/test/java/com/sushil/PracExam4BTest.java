@@ -33,6 +33,32 @@ public class PracExam4BTest {
     }
 
     @Test
+    public void minSpanTreeCost_or_numUnreachable() throws Exception {
+        int result = 0;
+        int[][] W;
+
+        W = new int[][]{
+                {0, 0, 0, 0, 0, 0},
+                {0, 0, 9999, 9999, 9999, 60},
+                {0, 9999, 0, 40, 50, 30},
+                {0, 9999, 40, 0, 20, 9999},
+                {0, 9999, 50, 20, 0, 9999},
+                {0, 60, 30, 9999, 9999, 0}};
+        result = PracExam4B.minSpanTreeCost_or_numUnreachable(W);
+        assertEquals(150, result);
+
+        W = new int[][]{
+                {0, 0, 0, 0, 0, 0},
+                {0, 0, 9999, 9999, 9999, 60},
+                {0, 9999, 0, 40, 50, 9999},
+                {0, 9999, 40, 0, 20, 9999},
+                {0, 9999, 50, 20, 0, 9999},
+                {0, 60, 9999, 9999, 9999, 0}};
+        result = PracExam4B.minSpanTreeCost_or_numUnreachable(W);
+        assertEquals(-3, result);
+    }
+
+    @Test
     public void nonRecDijkstraPrintPath() throws Exception{
         final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
