@@ -37,7 +37,8 @@ public class PracExam4B {
         return sol;
     }
 
-    public static int minSpanTreeCost_or_nonUnreachable(int n, int[][] W) {
+    public static int minSpanTreeCost_or_numUnreachable(int[][] W) {
+        int n = W.length - 1;
         return 0;
     }
 
