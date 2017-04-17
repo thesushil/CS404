@@ -23,12 +23,12 @@ public class PracExam4A {
 
             length[vNear] = 0;
 
-            for (int v = 1; v <= n; v++) {
-                if (length[v] == 0) continue;
-                int newLengh = min + W[vNear][v];
-                if (length[v] > newLengh) {
-                    touch[v] = vNear;
-                    length[v] = newLengh;
+            for (int dest = 1; dest <= n; dest++) {
+                if (length[dest] == 0) continue;
+                int newLength = min + W[vNear][dest];
+                if (newLength < length[dest]) {
+                    touch[dest] = vNear;
+                    length[dest] = newLength;
                 }
             }
         }
@@ -64,6 +64,9 @@ public class PracExam4A {
                 }
             }
 
+            distance[vNear] = length[vNear];
+            length[vNear] = 0;
+
             for (int v = 1; v <= n; v++) {
                 if (length[v] == 0) continue;
                 int newLengh = min + W[vNear][v];
@@ -72,8 +75,6 @@ public class PracExam4A {
                     length[v] = newLengh;
                 }
             }
-            distance[vNear] = length[vNear];
-            length[vNear] = 0;
         }
     }
 
