@@ -82,4 +82,52 @@ public class PracExam4CTest {
         assertFalse(PracExam4C.primConnected(W));
     }
 
+    @Test
+    public void numComponents() throws Exception {
+        int[][] W;
+        int num, INF = PracExam4C.INFINITE;
+
+        W = new int[][]{
+                {0, 0, 0, 0, 0, 0, 0},
+                {0, 0, 10, 15, INF, INF, 12},
+                {0, 10, 0, 20, INF, 13, 9},
+                {0, 15, 20, 0, 18, 8, INF},
+                {0, INF, INF, 18, 0, INF, 10},
+                {0, INF, 13, 8, INF, 0, 8},
+                {0, 12, 9, INF, 10, 8, 0}
+        };
+        num = PracExam4C.numComponents(W);
+        assertEquals(1,num);
+
+        W = new int[][]{
+                {0, 0, 0, 0, 0},
+                {0, 0, INF, INF, INF},
+                {0, INF, 0, INF, INF},
+                {0, INF, INF, 0, INF},
+                {0, INF, INF, INF, 0}
+        };
+        num = PracExam4C.numComponents(W);
+        assertEquals(4,num);
+
+        W = new int[][]{
+                {0, 0, 0, 0, 0},
+                {0, 0, INF, 2, INF},
+                {0, INF, 0, INF, INF},
+                {0, 2, INF, 0, INF},
+                {0, INF, INF, INF, 0}
+        };
+        num = PracExam4C.numComponents(W);
+        assertEquals(3,num);
+
+        W = new int[][]{
+                {0, 0, 0, 0, 0},
+                {0, 0, INF, 2, 5},
+                {0, INF, 0, INF, INF},
+                {0, 2, INF, 0, INF},
+                {0, 5, INF, INF, 0}
+        };
+        num = PracExam4C.numComponents(W);
+        assertEquals(2,num);
+    }
+
 }

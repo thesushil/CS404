@@ -64,12 +64,77 @@ public class PracExam4C {
         return true;
     }
 
-    public static int numComponents(int [][] W){
-        int n = W.length;
+    public static int numComponents(int[][] W) {
+        int n = W.length - 1, source = 1;
+        int[] distance = new int[n + 1], nearest = new int[n + 1];
+        boolean[] unexplored = new boolean[n + 1];
 
+        for (int i = 1; i <= n; i++) {
+            distance[i] = W[source][i];
+            nearest[i] = source;
+            unexplored[i] = true;
+        }
+        unexplored[source] = false;
 
+        for (int loop = 1; loop < n; loop++) {
 
-        return n;
+            int min = INFINITE, vNear = 0;
+            for (int i = 1; i <= n; i++) {
+                if (distance[i] < min && unexplored[i]) {
+                    min = distance[i];
+                    vNear = i;
+                }
+            }
+            if(vNear == 0) continue; // no min found
+            unexplored[vNear] = false;
+
+            for (int i = 1; i <= n; i++) {
+                if (W[vNear][i] < distance[i] && unexplored[i]) {
+                    distance[i] = W[vNear][i];
+                    nearest[i] = vNear;
+                }
+            }
+        }
+
+        int count = 1;
+        for (int i = 1; i <= n; i++)
+            if (distance[i] >= INFINITE) count++;
+
+        return count;
     }
+
+    public static boolean oneWayStreets(int [][] W) {
+        int n = W.length - 1;
+
+        for (int i = 1; i < n; i++)
+            for (int j = i + 1; j <= n; j++) {
+                if (W[i][j] < INFINITE && W[j][i] < INFINITE) return false;
+            }
+
+        return true;
+    }
+
+    public static boolean stronglyConnected(int [][] W) {
+        int n = W.length - 1;
+        return true;
+    }
+
+    public static int largestInCommon(int n, int [] A, int [] B) {
+        return 1;
+    }
+
+    public static void printPrimeFactorization(int n) {
+
+    }
+
+    public static boolean subString(String x, String y) {
+        return true;
+    }
+
+    public static boolean allEdgesUniqueWeights(int n, int [][] W) {
+        return true;
+    }
+
+
 
 }
