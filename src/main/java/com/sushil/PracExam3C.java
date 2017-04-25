@@ -4,7 +4,6 @@ public class PracExam3C {
 
     public static int howManyOptimalPathsAreDirectEdges(int n, int[][] W) {
         int[][] D = W.clone(), P = new int[n + 1][n + 1];
-        int directs = 0;
 
         for (int k = 1; k <= n; k++)
             for (int i = 1; i <= n; i++)
