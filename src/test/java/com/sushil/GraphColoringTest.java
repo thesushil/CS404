@@ -5,7 +5,6 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class GraphColoringTest {
-
     @Before
     public void setup(){
 
@@ -74,6 +73,32 @@ public class GraphColoringTest {
         v = new int[G1.length];
         m = GraphColoring.backtrackColoring(v.length-1, G2, v);
         assertEquals(4, m);
+    }
+
+    @Test
+    public void backtrackColoringSolution() throws Exception {
+    }
+
+    @Test
+    public void getForced3Coloring() throws Exception {
+        boolean[][] G = new boolean[][]{
+                {false,false,false,false,false,false,false,false,false},
+                {false,true,true,false,true,false,false,true,false},
+                {false,true,true,false,true,false,true,true,true},
+                {false,false,false,true,true,true,false,false,false},
+                {false,true,true,true,true,false,false,false,false},
+                {false,false,false,true,false,true,true,false,true},
+                {false,false,true,false,false,true,true,false,true},
+                {false,true,true,false,false,false,false,true,true},
+                {false,false,true,false,false,true,true,true,true}
+        };
+        int n = G.length -1;
+        int[] vColor = new int[n + 1];
+        vColor[1] = 1;
+        vColor[2] = 2;
+
+        vColor = GraphColoring.getForced3Coloring(n, vColor, G);
+        assertArrayEquals(new int[]{0,1,2,1,3,2,3,3,1}, vColor);
     }
 
 }

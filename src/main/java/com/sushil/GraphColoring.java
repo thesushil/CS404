@@ -19,12 +19,12 @@ public class GraphColoring {
         return color - 1;
     }
 
-    public static void backtrackColoringSolution(int n, int m, boolean[][] G){
+    public static void backtrackColoringSolution(int n, int m, boolean[][] G) {
         int[] v = new int[G.length];
 
     }
 
-    public static void mColoringSolutionRec(){
+    private static void mColoringSolutionRec() {
 
     }
 
@@ -77,5 +77,34 @@ public class GraphColoring {
         System.out.println();
         for (int i = 1; i <= n; i++)
             System.out.print(arr[i]);
+    }
+
+    public static int[] getForced3Coloring(int n, int[] vColor, boolean[][] G) {
+        for (int loop = 3; loop <= n; loop++)
+            for (int i = 1; i <= n; i++) {
+                if (vColor[i] > 0) continue;
+                force3Color(i, vColor, G);
+            }
+        return vColor;
+    }
+
+    private static void force3Color(int v, int[] vColor, boolean[][] G) {
+        int n = vColor.length - 1;
+        int v1 = 0, v2 = 0;
+        for (int i = 1; i <= n; i++) {
+            if (i != v && G[v][i] && vColor[i] > 0) {
+                if (v1 == 0) v1 = i;
+                else if (v2 == 0) v2 = i;
+                else break;
+            }
+        }
+
+        if(v1 == 0 || v2 == 0) return;
+
+        for (int c = 1; c <= 3; c++)
+            if (vColor[v1] != c && vColor[v2] != c) {
+                vColor[v] = c;
+                break;
+            }
     }
 }
