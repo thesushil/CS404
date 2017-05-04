@@ -85,7 +85,7 @@ public class PracExam4C {
                     vNear = i;
                 }
             }
-            if (vNear == 0) continue; // no min found
+            if (vNear == 0) break; // no min found
             unexplored[vNear] = false;
 
             for (int i = 1; i <= n; i++) {
